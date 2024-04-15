@@ -1,6 +1,10 @@
 # This script fetches subdomains for a specified domain from crt.sh and saves them into a text file.
 ## Usage
 
+`curl -sSL https://raw.githubusercontent.com/Dev5ec0ps/crt.sh/main/crt.sh | bash -s example.com`
+
+OR
+
 `bash srt.sh example.com`
 
 Replace `example.com` with the desired domain name.
